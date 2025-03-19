@@ -34,7 +34,6 @@ Following the research, the design specifications for the DPSK system are establ
 
 ## Simulation Setup
 The core of the methodology is the simulation conducted using OptiSystem, a powerful tool for modelling and analysing optical communication systems. The simulation setup involves several steps:
-![image](https://github.com/user-attachments/assets/8708e0d8-affa-4f2f-a40a-21aa22befe73)
 1.	System Configuration: Constructing the optical communication link in OptiSystem, which includes:
 <br> Transmitter: Implementing a DPSK modulator that converts binary data into QPSK symbols. The modulator is configured to use a carrier frequency that is compatible with the fiber specifications.
 <br> Channel: Simulating a fiber optic channel that incorporates various factors such as fiber attenuation and dispersion.
@@ -44,7 +43,8 @@ The core of the methodology is the simulation conducted using OptiSystem, a powe
 <br> Attenuation Coefficient: Specifying a typical attenuation of around 0.2 dB/km for SMF.
 <br> Dispersion Coefficient: Configuring the dispersion parameters to simulate the effects of chromatic dispersion on the signal.
 <br> 3.	Signal Generation: Generating random binary data to be transmitted. This data stream is fed into the DPSK modulator, which encodes the data into symbols for transmission over the fiber.
-<br> ![image](https://github.com/user-attachments/assets/7b801923-a775-4b9f-9bf3-71dee975a98b)
+<br> ![WhatsApp Image 2025-03-19 at 11 15 56_3158c080](https://github.com/user-attachments/assets/503e6b51-f4d5-4dc3-b1a3-96d877c30139)
+
 
 
 
